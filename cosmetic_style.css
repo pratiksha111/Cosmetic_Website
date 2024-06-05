@@ -1,0 +1,59 @@
+
+
+  /* Custom styles for the landing page */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.hero {
+  background: url('./Images/hero-banner-1.jpg'); 
+  
+  color: rgb(199, 141, 141);
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-size: 100% 100%;
+
+   padding: 15% 0; 
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.product-details {
+  height: 100vh;
+}
+
+.product-details .img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.products .card {
+  margin-bottom: 30px;
+}
+
+.products .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.testimonials .card {
+  margin-bottom: 30px;
+}
+
+.cta {
+  background-color: #f8f9fa;
+}
+/* .custom-card-width{
+  max-width: 300px;
+
+} */
